@@ -6,9 +6,6 @@
 
 It supports a practical subset of SQL, stores fixed-length records in 4 KB disk pages, keeps a small LRU buffer pool, persists schema metadata, and implements a B+ tree primary-key index.
 
-## Demo
-
-![ForgeDB CLI demo](docs/assets/forge_db_demo.png)
 
 ## Why ForgeDB?
 
@@ -277,6 +274,9 @@ src/main/java/io/forgedb/
     ├── RecordManager.java
     └── RowCodec.java
 ```
+## Demo
+
+![ForgeDB CLI demo](docs/assets/forge_db_demo.png)
 
 ## License
 
