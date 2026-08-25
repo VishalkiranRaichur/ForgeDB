@@ -6,6 +6,10 @@
 
 It supports a practical subset of SQL, stores fixed-length records in 4 KB disk pages, keeps a small LRU buffer pool, persists schema metadata, and implements a B+ tree primary-key index.
 
+## Demo
+
+![ForgeDB CLI demo](docs/assets/forge_db_demo.png)
+
 ## Why ForgeDB?
 
 Most database projects rely on an existing database through JDBC. ForgeDB goes one layer deeper by implementing the core components responsible for storing, locating, updating, and deleting records directly.
