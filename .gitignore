@@ -1,0 +1,10 @@
+build/
+target/
+out/
+out-test/
+*.class
+.idea/
+.vscode/
+.DS_Store
+bin/
+.refact/
