@@ -4,11 +4,11 @@
 
 It supports a practical subset of SQL, stores fixed-length records in 4 KB disk pages, keeps a small LRU buffer pool, persists schema metadata, and implements a B+ tree primary-key index.
 
-## Why this project exists
+## Why ForgeDB?
 
-Most student database projects call an existing database through JDBC. ForgeDB goes one layer lower: it implements the pieces a database needs to store, find, update, and delete its own rows.
+Most database projects rely on an existing database through JDBC. ForgeDB goes one layer deeper by implementing the core components responsible for storing, locating, updating, and deleting records directly.
 
-The project was designed after studying the architecture and behavior of Yan Chen's educational C++ `nrthyrk/minidb` project. The Java implementation is reorganized and rewritten for readability instead of being a line-by-line translation. See `NOTICE.md` and `docs/ORIGINAL_ARCHITECTURE.md`.
+The goal is to understand the systems behind a relational database rather than only interacting with one.
 
 ## Features
 
@@ -272,6 +272,8 @@ src/main/java/io/forgedb/
     └── RowCodec.java
 ```
 
-## License and attribution
+## License
 
-The reference C++ project is GPL-3.0 licensed. Because ForgeDB was produced while studying that project, this repository includes the GPL v3 license and explicit attribution in `NOTICE.md`.
+ForgeDB is distributed under the GPL-3.0 license.
+
+See LICENSE and NOTICE.md for licensing and attribution information.
