@@ -1,6 +1,8 @@
 # ForgeDB
 
-**ForgeDB is a small relational database engine built from scratch in Java for learning database internals.**
+[![ForgeDB CI](https://github.com/VishalkiranRaichur/ForgeDB/actions/workflows/ci.yml/badge.svg)](https://github.com/VishalkiranRaichur/ForgeDB/actions/workflows/ci.yml)
+
+**ForgeDB is a lightweight relational database engine implemented in Java for learning database internals.**
 
 It supports a practical subset of SQL, stores fixed-length records in 4 KB disk pages, keeps a small LRU buffer pool, persists schema metadata, and implements a B+ tree primary-key index.
 
